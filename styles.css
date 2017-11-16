@@ -1,0 +1,25 @@
+/* TBH I suck at CSS so if you could improve this, that would be great */
+
+.w3-lschs {
+    color: #fff !important;
+    background-color: #054375 !important;
+}
+.w3-text-lschs {
+    color: #054375;
+}
+.w3-text-lschs:hover {
+    color: #a29064 !important;
+}
+.w3-bar-item {
+    height: 40px !important;
+}
+
+#letterDays {
+    height: 400px;
+    width: auto;
+}
+
+#time {
+    text-align: center;
+    font-size: 24px;
+}
