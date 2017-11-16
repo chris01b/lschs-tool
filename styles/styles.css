@@ -1,5 +1,10 @@
 /* TBH I suck at CSS so if you could improve this, that would be great */
 
+@font-face {
+    font-family: "garamond-premier-pro";
+    src: url("fonts/garamond-premier-pro.woff") format('woff');
+}
+
 .w3-lschs {
     color: #fff !important;
     background-color: #054375 !important;
@@ -21,5 +26,11 @@
 
 #time {
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
+    font-family: "garamond-premier-pro", Georgia, serif;
+}
+
+#schedule, #letters {
+    font-family: sans-serif;
+    font-size: 15px;
 }

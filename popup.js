@@ -32,7 +32,7 @@ function changePage(page, width) {
     }
     if (page == "schedule") {
         var d = new Date();
-        let currTime = d.getHours() + d.getMinutes();
+        let currTime = d.getHours().toString() + d.getMinutes().toString();
         if (currTime < 755 || currTime > 1435) {
             displayTime("School has not started");
         } else if (currTime >= 755 && currTime <= 843) {
